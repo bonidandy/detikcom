@@ -785,7 +785,7 @@ footer {
     gap: 8px;
 }
 
-.circle {
+.circle-sosmed {
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -1128,7 +1128,7 @@ footer {
         gap: 10px;
     }
 
-    .circle {
+    .circle-sosmed{
         width: 40px;
         /* Sesuaikan ukuran lingkaran */
         height: 40px;
