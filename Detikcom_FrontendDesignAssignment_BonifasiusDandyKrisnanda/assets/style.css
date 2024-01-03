@@ -743,13 +743,13 @@ footer {
     background: #28A997;
 }
 
-.container-kaki {
+.container-footer {
     width: 1300px;
     padding: 50px 90px;
 }
 
 
-.casan img {
+.parent-logo-event img {
     filter: brightness(0) invert(1);
 }
 
@@ -1100,7 +1100,7 @@ footer {
         height: auto;
     }
 
-    .container-kaki {
+    .container-footer {
         width: 100%;
         padding: 20px;
     }
@@ -1141,7 +1141,7 @@ footer {
         margin-bottom: 30px;
     }
 
-    .casan img {
+    .parent-logo-event img {
         max-width: 100%;
         height: auto;
         padding-left: 35px;
