@@ -53,11 +53,11 @@ body {
     margin: 10px 20px;
 }
 
-.nav-pertama li {
+.ul-main li {
     transition: transform 0.3s ease-out;
 }
 
-.nav-pertama li:hover {
+.ul-main li:hover {
     transform: scale(1.1);
 }
 
@@ -95,7 +95,7 @@ body {
 }
 
 /* sementara */
-.navbar-button {
+.navbar-registrasi {
     color: white;
     display: flex;
     padding: 10px 20px;
@@ -108,11 +108,11 @@ body {
 }
 
 
-.navbar-button:hover {
+.navbar-registrasi:hover {
     background: linear-gradient(258deg, #326CFF 0%, #59FFB9 100%);
 }
 
-.navbar-button:active {
+.navbar-registrasi:active {
     animation: clickAnimation 0.6s ease-in-out;
 }
 
@@ -129,13 +129,13 @@ body {
 /* sementara */
 
 
-.logosehat {
+.parent-logo-sudirman {
     display: flex;
     padding-left: 78px;
     flex-direction: column;
 }
 
-.logoaing {
+.child-logo-sudirman {
     background: url(./img/imgutama/logo-event\ 2.png);
     width: 686px;
     height: 276px;
@@ -144,7 +144,7 @@ body {
     flex-shrink: 0;
 }
 
-.button-tentang {
+.button-tentang-acara {
     margin-top: 300px;
     position: absolute;
     padding: 15px 25px;
@@ -158,7 +158,7 @@ body {
     border: none;
 }
 
-.button-tentang:hover {
+.button-tentang-acara:hover {
     background: #d48900
 }
 
@@ -218,7 +218,7 @@ body {
     line-height: normal;
 }
 
-.jarak {
+.spacing {
     padding: 10px;
 }
 
@@ -263,23 +263,23 @@ body {
     background: linear-gradient(237deg, #59FFB9 -30.09%, #326CFF 71.21%);
 }
 
-.sendiri {
+.parent-card-4 {
     display: flex;
     padding: 10px;
     gap: 20px;
 }
 
-.botol {
+.parent-card-4 {
     flex: 1; /* Untuk memberikan flex yang fleksibel agar kontennya dapat tumbuh */
 }
 
 
-.sendiri img {
+.parent-card-4 img {
     aspect-ratio: 4/3;
 }
 
 
-.button-daftar {
+.button-daftar-sekarang {
     border: none;
     color: white;
     align-self: center;
@@ -292,11 +292,11 @@ body {
     margin-left: 600px;
 }
 
-.button-daftar:hover {
+.button-daftar-sekarang:hover {
     background: #d48900
 }
 
-.button-daftar a {
+.button-daftar-sekarang a {
     text-decoration: none;
     color: white;
 }
@@ -413,16 +413,16 @@ body {
     height: auto;
 }
 
-.lengkung {
+.circle {
     border-radius: 30px;
 }
 
-.lengkung2 {
+.circle2 {
     border-radius: 10px;
     filter: grayscale(100%);
 }
 
-.lengkung2.active {
+.circle2.active {
     filter: grayscale(0%);
 }
 
@@ -457,6 +457,7 @@ body {
 }
 
 .row {
+    margin-top: 20px;
     gap: 105px;
 }
 
@@ -569,7 +570,7 @@ body {
 }
 
 /* end gallery section */
-.baris1 img {
+.berita1 img {
     aspect-ratio: 4/3;
 }
 
@@ -597,7 +598,7 @@ body {
     padding-bottom: 299px;
 }
 
-.lebarnav-berita {
+.parent-berita {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -658,7 +659,7 @@ body {
     transform: scale(1.1);
 }
 
-.baris1 {
+.berita1 {
     display: flex;
     gap: 35px;
 }
@@ -667,12 +668,12 @@ body {
     aspect-ratio: 4/3;
 }
 
-.baris2 {
+.berita2 {
     display: flex;
     gap: 35px;
 }
 
-.combi {
+.teks-berita {
     color: #212427;
     text-align: center;
     font-size: 36px;
@@ -701,7 +702,7 @@ body {
     width: 376px;
 }
 
-.lihat {
+.child-button-more {
     border-radius: 100px;
     background: #FFC73C;
     box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
@@ -717,16 +718,16 @@ body {
     left: 50%;
 }
 
-.lihat:hover {
+.child-button-more:hover {
     background: #d48900
 }
 
-.lihat a {
+.child-button-more a {
     text-decoration: none;
     color: white;
 }
 
-.tombol-lihat {
+.button-more {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -752,7 +753,7 @@ footer {
     filter: brightness(0) invert(1);
 }
 
-.kata-terakhir {
+.text-paragraph {
     width: 1008px;
     color: white;
     font-size: 16px;
@@ -762,7 +763,7 @@ footer {
     padding-right: 10px;
 }
 
-.kata-aing {
+.parent-text-footer {
     display: flex;
     padding-top: 30px;
 }
@@ -911,7 +912,7 @@ footer {
         display: flex;
     }
 
-    nav .nav-pertama {
+    nav .ul-main {
         position: absolute;
         right: 0;
         top: 0;
@@ -935,14 +936,14 @@ footer {
     }
 
 
-    .logosehat {
+    .parent-logo-sudirman {
         display: flex;
         flex-direction: column;
         padding-left: 8px;
         justify-content: center;
     }
 
-    .logoaing {
+    .child-logo-sudirman {
         background: url(./img/imgutama/logo-event\ 2\ \(1\).png);
         width: 367px;
         height: 147px;
@@ -951,7 +952,7 @@ footer {
         margin-bottom: 200px;
     }
 
-    .button-tentang {
+    .button-tentang-acara {
         color: white;
         border: none;
         padding: 15px 25px;
@@ -993,7 +994,7 @@ footer {
         margin-bottom: 20px;
     }
 
-    .sendiri {
+    .parent-card-4 {
         flex-direction: column;
         align-items: center;
         text-align: center;
@@ -1008,7 +1009,7 @@ footer {
         font-size: 14px;
     }
 
-    .button-daftar {
+    .button-daftar-sekarang {
         width: 40%;
         margin-left: 0;
         margin-right: 100px;
@@ -1058,11 +1059,11 @@ footer {
     }
 
 
-    .baris1 {
+    .berita1 {
         flex-direction: column;
     }
 
-    .baris2 {
+    .berita2 {
         margin-top: 35px;
         flex-direction: column;
     }
@@ -1087,7 +1088,7 @@ footer {
 
 
 
-    .tombol-lihat {
+    .button-more {
         padding-top: 50px;
     }
 
@@ -1104,13 +1105,13 @@ footer {
         padding: 20px;
     }
 
-    .kata-terakhir {
+    .text-paragraph {
         width: 100%;
         padding-right: 0;
         text-align: center;
     }
 
-    .kata-aing {
+    .parent-text-footer {
         flex-direction: column;
         align-items: center;
         padding-top: 20px;
